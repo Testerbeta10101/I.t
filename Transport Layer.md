@@ -1,0 +1,3 @@
+## Transport Layer
+
+The transport layer take data transferred in the session later and break it into "segments" on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer. The transport layer carries out flow control, sending data at a rate that matches the connection speed of the receiving devices, and error control, checking if data  was received incorrectly and if not, requesting again.

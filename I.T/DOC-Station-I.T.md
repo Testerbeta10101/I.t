@@ -1,0 +1,6 @@
+---
+tags:
+  - Indexe
+aliases:
+  - Indexes
+---

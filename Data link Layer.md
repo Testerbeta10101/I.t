@@ -1,0 +1,3 @@
+## Data link Layer
+
+The data link layer establishes and terminates a connection between two physically - connected nodes on a network. It break up packets into frames and sends them from sources to destination. This layer is composed of two parts - Logical Link Control (LLC) which identifies network protocols perform error checking and synchronizes frames, and Media [Access Control](https://www.imperva.com/learn/application-security/broken-object-level-authorization-bola/) Control (MAC) Which uses MAC addresses to connect devices and define permission to transmit and receive data.

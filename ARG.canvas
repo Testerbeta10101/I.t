@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"78875466a36ee73e","type":"group","x":-680,"y":-152,"width":940,"height":259,"color":"5","label":"cipher"},
+		{"id":"8b56121079558fb3","type":"text","text":"ECRYPTION METHOD","shape":"diamond","x":-327,"y":-132,"width":260,"height":60,"color":"4"},
+		{"id":"343442023a4232fa","type":"text","text":"BASE 64","shape":"oval","x":-660,"y":27,"width":260,"height":60,"color":"6"},
+		{"id":"192021a22852cf1e","type":"text","text":"HASH SH1","shape":"oval","x":-20,"y":27,"width":260,"height":60,"color":"1"},
+		{"id":"1834f187bdabd700","type":"text","text":"BASE 32","shape":"oval","x":-327,"y":27,"width":260,"height":60,"color":"3"},
+		{"id":"5164a1f371b55c06","type":"text","text":"WEBSITE TO HOST ","shape":"database","x":-327,"y":280,"width":260,"height":60,"color":"6"},
+		{"id":"93934759b97cf944","type":"text","text":"Obsidian plugin website","shape":"oval","x":-660,"y":440,"width":260,"height":60}
+	],
+	"edges":[
+		{"id":"78e21a9249ef7446","edgePathRoute":"square","fromNode":"8b56121079558fb3","fromSide":"bottom","toNode":"343442023a4232fa","toSide":"top","color":"6"},
+		{"id":"162989ce41192f61","edgePathRoute":"square","fromNode":"8b56121079558fb3","fromSide":"bottom","toNode":"1834f187bdabd700","toSide":"top","color":"3"},
+		{"id":"4101f8d5834e539b","edgePathRoute":"square","fromNode":"8b56121079558fb3","fromSide":"bottom","toNode":"192021a22852cf1e","toSide":"top","color":"1"}
+	],
+	"metadata":{}
+}

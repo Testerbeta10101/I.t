@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"7f95a5468749289a","type":"text","text":"Doral FL","shape":"diamond","x":-360,"y":-340,"width":250,"height":60,"color":"2"},
+		{"id":"f3485c65c98cce27","type":"text","text":"Company","shape":"circle","x":40,"y":-160,"width":160,"height":160,"color":"1"},
+		{"id":"597c1b5d1c5ba27f","type":"text","text":"Currency","shape":"database","x":-290,"y":20,"width":130,"height":73,"color":"3"},
+		{"id":"b8a83b87e7c75e00","type":"text","text":"You","shape":"circle","x":-660,"y":-160,"width":160,"height":160,"color":"5"},
+		{"id":"b4f1c0fd790a3cea","type":"text","text":"You","shape":"circle","x":-660,"y":800,"width":160,"height":160,"color":"5"},
+		{"id":"845f4ccd8121cd52","type":"text","text":"Fedex","shape":"circle","x":-360,"y":600,"width":80,"height":80,"color":"#ffffff"},
+		{"id":"693b618cbb7cc2db","type":"text","text":"Scammer","shape":"circle","x":-40,"y":800,"width":160,"height":160,"color":"1"},
+		{"id":"9418e51e4205f223","type":"text","text":"Paypal","shape":"circle","x":0,"y":1160,"width":80,"height":80,"color":"#ffffff"},
+		{"id":"81c4f99872ad3470","type":"text","text":"Forwarder","shape":"circle","x":-10,"y":590,"width":100,"height":100,"color":"3"}
+	],
+	"edges":[
+		{"id":"ba46910f8f348a30","fromNode":"b8a83b87e7c75e00","fromSide":"right","toNode":"f3485c65c98cce27","toSide":"left","color":"1","label":"I'm a Nigerian Prince"},
+		{"id":"65f6a5b0ccc47b9f","edgeStyle":"long-dashed","fromNode":"693b618cbb7cc2db","fromSide":"left","toNode":"b4f1c0fd790a3cea","toSide":"right","color":"#ffffff","label":"X"},
+		{"id":"0541b85b26489b89","edgeStyle":"long-dashed","edgePathRoute":"a-star","fromNode":"693b618cbb7cc2db","fromSide":"bottom","toNode":"9418e51e4205f223","toSide":"top","color":"1"},
+		{"id":"ebebb201bd78eb76","edgeStyle":"long-dashed","fromNode":"845f4ccd8121cd52","fromSide":"right","toNode":"81c4f99872ad3470","toSide":"left","color":"3"},
+		{"id":"9342e4369d2e4ce7","edgePathRoute":"a-star","edgeStyle":"long-dashed","fromNode":"b4f1c0fd790a3cea","fromSide":"top","toNode":"845f4ccd8121cd52","toSide":"left","color":"#ffffff"},
+		{"id":"1361d30fe16008ad","edgePathRoute":"a-star","fromNode":"b8a83b87e7c75e00","fromSide":"bottom","toNode":"597c1b5d1c5ba27f","toSide":"left","color":"4"},
+		{"id":"07b50e6773a05a52","edgePathRoute":"a-star","fromNode":"f3485c65c98cce27","fromSide":"bottom","toNode":"597c1b5d1c5ba27f","toSide":"right","color":"4"},
+		{"id":"d3cf486ee9c6c8c2","edgePathRoute":"a-star","edgeStyle":"long-dashed","fromNode":"81c4f99872ad3470","fromSide":"bottom","toNode":"693b618cbb7cc2db","toSide":"top","color":"1"}
+	],
+	"metadata":{
+		"properties":{
+			"cssclasses":[""]
+		}
+	}
+}

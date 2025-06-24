@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"8cc73e0b42e11cbd","x":-540,"y":-150,"width":250,"height":60,"color":"3","type":"text","text":"RESOURCE"},
+		{"id":"b4a38402c594ad9d","x":-540,"y":-27,"width":250,"height":60,"color":"3","type":"text","text":"WEBSITE"},
+		{"id":"398d59e70895e0f4","x":-300,"y":-340,"width":250,"height":60,"color":"4","type":"text","text":"APK"},
+		{"id":"3e281644b6b81484","x":0,"y":-150,"width":250,"height":60,"color":"5","type":"text","text":"MY SUMMARY"},
+		{"id":"e6f9618203962965","x":0,"y":-27,"width":250,"height":60,"color":"6","type":"text","text":"RELATED TOPICS"}
+	],
+	"edges":[
+		{"id":"e0c2c0b9145b78e1","fromNode":"398d59e70895e0f4","fromSide":"bottom","toNode":"8cc73e0b42e11cbd","toSide":"top","color":"3"},
+		{"id":"02b76d91432341fe","fromNode":"8cc73e0b42e11cbd","fromSide":"bottom","toNode":"b4a38402c594ad9d","toSide":"top","color":"3"},
+		{"id":"85a99f80563336f5","fromNode":"8cc73e0b42e11cbd","fromSide":"right","toNode":"3e281644b6b81484","toSide":"left","color":"5"},
+		{"id":"88fc37cfe1fc23bf","fromNode":"b4a38402c594ad9d","fromSide":"right","toNode":"e6f9618203962965","toSide":"left","color":"3"},
+		{"id":"ff5a442d40c4adf4","fromNode":"3e281644b6b81484","fromSide":"bottom","toNode":"e6f9618203962965","toSide":"top"}
+	]
+}

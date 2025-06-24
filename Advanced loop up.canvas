@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6e3a58e3680cf56b","x":-1200,"y":-1400,"width":600,"height":400,"color":"6","type":"link","url":"https://www.myosint.training/courses/osint-documentation-with-obsidian#:~:text=The%20Obsidian%20writing%20app%20has,app%20in%20your%20OSINT%20work."},
+		{"id":"dbe0d91eec44198a","x":-1258,"y":-640,"width":716,"height":400,"color":"4","type":"link","url":"https://tracelabs.org"},
+		{"id":"78a78fb1b44279da","x":-2480,"y":-1357,"width":640,"height":917,"color":"1","type":"link","url":"https://osintframework.com/"},
+		{"id":"946380cd2c305014","x":-1840,"y":80,"width":748,"height":400,"color":"4","type":"link","url":"https://www.hackthebox.com/"},
+		{"id":"6c6d592348644b8d","x":-800,"y":80,"width":604,"height":400,"color":"4","type":"link","url":"https://tryhackme.com/"}
+	],
+	"edges":[
+		{"id":"81aadc89d4513010","fromNode":"78a78fb1b44279da","fromSide":"right","toNode":"6e3a58e3680cf56b","toSide":"left","color":"6"},
+		{"id":"3c785efe61cc24ed","fromNode":"78a78fb1b44279da","fromSide":"right","toNode":"dbe0d91eec44198a","toSide":"left","color":"4"},
+		{"id":"befb6286da170e4f","fromNode":"dbe0d91eec44198a","fromSide":"bottom","toNode":"946380cd2c305014","toSide":"top","color":"4"},
+		{"id":"a6294c3ceb60ad61","fromNode":"dbe0d91eec44198a","fromSide":"bottom","toNode":"6c6d592348644b8d","toSide":"top","color":"4"}
+	]
+}

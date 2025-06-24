@@ -1,0 +1,3 @@
+## Session Layer
+
+The session layer create communication, called session, between devices. It is responsible for opening session, ensuring  they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoint during a data transfer- if the session is the interrupted, devices can resume data transfer from the last checkpoint.

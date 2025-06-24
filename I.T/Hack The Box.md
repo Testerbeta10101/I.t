@@ -1,0 +1,5 @@
+
+[[LEARNED/PARROT OS]] 
+
+
+[[tryhackme]] 

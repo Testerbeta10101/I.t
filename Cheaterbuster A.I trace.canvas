@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"f13073cce919f718","x":-180,"y":-360,"width":250,"height":60,"type":"text","text":"Tinder"},
+		{"id":"29228dbb8d7ba01d","x":-460,"y":-360,"width":250,"height":60,"type":"text","text":"Cheaterbuster"},
+		{"id":"94b5be44ad69e60c","x":-159,"y":-194,"width":250,"height":60,"type":"text","text":"Date of create"}
+	],
+	"edges":[]
+}
