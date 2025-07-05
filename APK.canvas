@@ -12,5 +12,9 @@
 		{"id":"85a99f80563336f5","fromNode":"8cc73e0b42e11cbd","fromSide":"right","toNode":"3e281644b6b81484","toSide":"left","color":"5"},
 		{"id":"88fc37cfe1fc23bf","fromNode":"b4a38402c594ad9d","fromSide":"right","toNode":"e6f9618203962965","toSide":"left","color":"3"},
 		{"id":"ff5a442d40c4adf4","fromNode":"3e281644b6b81484","fromSide":"bottom","toNode":"e6f9618203962965","toSide":"top"}
-	]
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

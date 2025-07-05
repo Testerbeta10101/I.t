@@ -2,18 +2,35 @@
 	"nodes":[
 		{"id":"12badd8079419bc8","type":"text","text":"Meshtastic ","x":-11,"y":-140,"width":250,"height":60},
 		{"id":"2ba6160eb25bdfb3","type":"text","text":"Apmfiter singal","x":-11,"y":160,"width":250,"height":60},
-		{"id":"56d1856762d64c98","type":"text","text":"Solar panel ","x":320,"y":-360,"width":250,"height":60},
+		{
+			"id":"56d1856762d64c98",
+			"type":"text",
+			"text":"Solar panel ",
+			"styleAttributes":{"shape":"database","border":"dashed"},
+			"x":320,
+			"y":-360,
+			"width":250,
+			"height":60
+		},
 		{"id":"6cfdf113fbf53b37","type":"text","text":"Battery ","x":-62,"y":-354,"width":250,"height":60},
-		{"id":"1796ec9fb038ba8e","x":397,"y":379,"width":250,"height":60,"type":"text","text":"Storage  "},
-		{"id":"f66148046e9f4bd3","x":188,"y":680,"width":250,"height":60,"type":"text","text":"Camera"},
-		{"id":"46628557865ea868","x":522,"y":-40,"width":250,"height":60,"type":"text","text":"Phone"}
+		{"id":"1796ec9fb038ba8e","type":"text","text":"Storage  ","x":397,"y":379,"width":250,"height":60},
+		{"id":"f66148046e9f4bd3","type":"text","text":"Camera","x":188,"y":680,"width":250,"height":60},
+		{"id":"46628557865ea868","type":"text","text":"Phone","x":522,"y":-40,"width":250,"height":60},
+		{"id":"f46ca25d52ec9b88","type":"text","text":"Dipole antenna ","x":-400,"y":-200,"width":240,"height":60}
 	],
 	"edges":[
-		{"id":"5638b30e5c273af5","fromNode":"12badd8079419bc8","fromSide":"bottom","toNode":"2ba6160eb25bdfb3","toSide":"top"},
+		{"id":"5638b30e5c273af5","toFloating":false,"fromNode":"12badd8079419bc8","fromSide":"bottom","toNode":"2ba6160eb25bdfb3","toSide":"top"},
 		{"id":"a9320f83484ecf65","fromNode":"6cfdf113fbf53b37","fromSide":"bottom","toNode":"12badd8079419bc8","toSide":"top"},
 		{"id":"aedcab5acc47b435","fromNode":"56d1856762d64c98","fromSide":"bottom","toNode":"12badd8079419bc8","toSide":"top"},
-		{"id":"8f63de498e6ad9cc","fromNode":"2ba6160eb25bdfb3","fromSide":"bottom","toNode":"1796ec9fb038ba8e","toSide":"top"},
-		{"id":"50507ce8ef0defae","fromNode":"f66148046e9f4bd3","fromSide":"top","toNode":"1796ec9fb038ba8e","toSide":"bottom"},
-		{"id":"603fcb66bc29cf96","fromNode":"12badd8079419bc8","fromSide":"right","toNode":"46628557865ea868","toSide":"left"}
-	]
+		{"id":"8f63de498e6ad9cc","toFloating":false,"fromNode":"2ba6160eb25bdfb3","fromSide":"bottom","toNode":"1796ec9fb038ba8e","toSide":"top"},
+		{"id":"50507ce8ef0defae","fromFloating":false,"fromNode":"f66148046e9f4bd3","fromSide":"top","toNode":"1796ec9fb038ba8e","toSide":"bottom"},
+		{"id":"603fcb66bc29cf96","fromFloating":false,"fromNode":"12badd8079419bc8","fromSide":"right","toNode":"46628557865ea868","toSide":"left"},
+		{"id":"930e69842f77e377","fromNode":"f46ca25d52ec9b88","fromSide":"right","toNode":"12badd8079419bc8","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{
+			"Website source":null
+		}
+	}
 }
